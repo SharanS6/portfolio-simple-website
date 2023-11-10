@@ -1,0 +1,118 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Young Serif', serif;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.container {
+    padding: 50px;
+}
+
+.section__one {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    ;
+}
+
+.section__one__contact {
+    background-color: orangered;
+    color: white;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.section__one__head {
+    font-size: 50px;
+}
+
+.section__one__role {
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+
+.section__one,
+.section__two,
+.section__three,
+.section__four,
+.section__five {
+    margin-top: 20px;
+}
+
+.section__two__desc,
+.section__three__desc,
+.section__four__desc,
+.section__five__desc {
+    margin-top: 10px;
+}
+
+.section__three {
+    background-color: #6462fd;
+    color: black;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 10px;
+    height: 200px;
+    vertical-align: top;
+}
+.section__four{
+    background-color: #fe7517;
+    color: black;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 10px;
+    height: 200px;
+    vertical-align: top ;
+}
+
+.section__three__list {
+    list-style-type: none;
+
+}
+
+
+
+.section__five {
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+.section__five__social a {
+    color: skyblue;
+    text-decoration: none;
+}
+
+.contact-form__name,.contact-form__age,.contact-form__desc,.contact-form__button{
+    margin-top: 10px;
+}
+.contact-form__name ,.contact-form__age{
+    padding: 10px;
+    border: none;
+    border-bottom: solid black 1px;
+}
+.contact-form__desc{
+    padding: 10px;
+    border: none;
+    border-bottom: solid black 1px;
+
+}
+.contact-form__button{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    background-color: orangered;
+    color: black;
+}
